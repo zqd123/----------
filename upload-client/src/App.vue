@@ -32,7 +32,7 @@
 import DragArea from './components/DragArea.vue';
 import FileTable from './components/FileTable.vue';
 import { useUpload } from './compositions/useUpload';
-const exts = ['.jpg', '.jpeg', '.bmp', '.webp', '.gif', '.png'];
+const exts = ['.jpg', '.jpeg', '.bmp', '.webp', '.gif', '.png','.js','.css','.html'];
 const maxSize = 1024 * 1024;
 const { files, addFiles, deleteFiles, pendingFiles, upload } = useUpload(
   [],
